@@ -1,0 +1,35 @@
+.img1
+{
+    width: 200px;
+    height: 100px;
+}
+
+.oldClass
+{
+    color: red;
+}
+
+.newClass
+{
+    color: goldenrod;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px red solid;
+    border-radius: 2px;
+
+}
+
+.animationWindow
+{
+    height: 200px;
+    width: 600px;
+    border: red 2px solid;
+}
+
+#carAnimation
+{
+    width: 100px;
+    height: 200px;
+    border: 2px blueviolet dashed;
+    position: absolute;
+}

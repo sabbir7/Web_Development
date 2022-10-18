@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Insert JavaScript code in Head section -->
+    <script>
+        document.write("JavaScript in Head Section with document write method.");
+    </script>    
+
+</head>
+
+<body>
+    <br>
+    <!-- Insert JavaScript code in Body section with different displaying method-->
+    <p id="jsPrag">JavaScript File</p>
+    <script>
+        console.log("JavaScript in Body Section with console log method.");
+        window.alert("JavaScript in window Alert box method.");
+        document.getElementById("jsPrag").innerHTML="Change HTML with JavaScript";
+    </script>
+    
+    <!-- Insert JavaScript code in External File -->
+    <script src="JS_Basics.js"></script>
+    <br>
+    <br>
+
+    <!--Event with javascript-->
+    <button onclick="alert('Event Clicked')"> Click for window</button>
+    <button onclick="clearAll()">Click to remove everything</button>
+    
+</body>
+</html>

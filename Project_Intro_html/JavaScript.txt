@@ -1,0 +1,26 @@
+1. How & Where to write Js(internal-head/body, external)
+
+2. Display Possibilities/Outputting Method 
+	HTML output = document.write()
+	Alert box = window.alert()
+	Browser console= console.log()
+	Into an HTML element = innerHTML
+
+3. Statements, Comments & Variable (var/let/const)
+
+4. Conditional Statements
+
+5. Loop Statements
+
+6. Function
+
+7. Array & Object
+
+8. Class
+
+9. Some Built in Function
+
+10. Event
+
+11. Practice Exercise
+

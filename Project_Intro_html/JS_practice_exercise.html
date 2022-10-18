@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>Number sorting</h3>
+    <p id="input_num">Input: 2,18,1,5,7,12,3,4,9</p>
+    <button onclick=sort_number()>Press to sort number</button>
+    <br><br>
+    
+    <h3>Random Number Generate</h3>
+    <input id="ranNum" type="text" value="random number">
+    <button onclick="document.getElementById('ranNum').value=random_number(1,9)">Press for a random number between 1 to 9</button>
+    <br><br>
+    
+    <h3>Text style Change</h3>
+    <p class="textStyle" style="color:red">This is sample text for javascript event</p>
+    <button onclick="document.querySelector('.textStyle').style.color='blue'">Press for Text Decoration</button>
+
+    <script src="JS_practice_exercise.js"></script>
+    
+</body>
+</html>

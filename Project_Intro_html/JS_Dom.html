@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="JS_Dom.css">
+</head>
+<body>
+    <!--Inner HTML Change using grtElementById-->
+    <p id="para1">ICE 7th Batch</p>
+    <button onclick="changeSentence()">Press for change sentence</button>
+    <br><br>
+
+
+    <!--HTML attributes Value Change using grtElementById-->
+    <img id="img1" src="image/image.png" alt="No image found">
+    <br>
+    <button onclick="changeImg()">Press for change Image</button>
+    <br><br>
+
+
+    <!--HTML attributes Value Change using grtElementsByTagName-->
+    <p id="fatherName">Md. Sabbir Ejaz</p>
+    <p id="sonName">Muhammad Umair Ejaz</p>
+    <button onclick="swapNameTag()"> Name Change Tag</button>
+
+
+    <!--HTML attributes Value Change using grtElementsByClassName-->
+    <p class="vBatch">ICE 7th batch</p>
+    <p id="cBatch">ICE __th batch</p>    
+    <button onclick="swapNameClass()"> Name Change Class</button>
+
+
+    <!--Change CSS/ HTML styles-->
+    <p id="sText" class="oldClass">Sample Practice Text</p>    
+    <button onclick="changeTextStyle()"> Press to Change Style</button>
+    <br><br>
+
+
+    <!--Car animation-->
+    <div class="animationWindow">
+        <div id="carAnimation"></div>
+        
+    </div>
+    <button onclick="moveCar()">Press to Forward</button>
+    
+
+
+
+    <script src="JS_Dom.js"></script>
+    
+</body>
+</html>
